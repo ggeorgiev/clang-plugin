@@ -3,8 +3,7 @@ PLUGIN = ParameterNameChecker
 
 # Some LLVM paths.
 # NOTE: You probably need to update these!
-LLVM_DIR = ../../clang
-LLVM_BUILD_DIR = $(LLVM_DIR)/Release+Asserts
+LLVM_DIR ?= ../../clang
 CLANG_DIR = $(LLVM_DIR)/tools/clang
 CLANG = $(LLVM_DIR)/bin/clang
 
